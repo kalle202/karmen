@@ -1,0 +1,25 @@
+.instagram {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    row-gap: 62px;
+    margin-bottom: 266px;
+}
+
+.instagram__gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.instagram h4 {
+    text-align: center;
+}
+
+.h4span {
+    display: block;
+}
+
+.instagram a {
+    font-size: 72px;
+    color: #FFE9E9;
+}

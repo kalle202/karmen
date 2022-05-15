@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karmen - Kurv</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/bedstetilbud.css">
+    <link rel="stylesheet" href="css/kurv.css">
+    <script src="js/dropdown.js" defer></script>
+    <script src="https://kit.fontawesome.com/d3acdf8a76.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <a class="a" href="#">
+            <div class="border">
+                <span>&nbsp;</span>
+            </div>
+        </a>
+
+        <header>
+            <nav>
+                <ul>
+                    <li class="menuitem__logo">
+                        <a href="index.html"><img src="images/karmen-logo-sort.png" alt="Sort Karmen logo"></a>
+                    </li>
+                    <li class="menuitem menuitem__index"><a href="index.html">Forside</a></li>
+                    <li class="menuitem menuitem__products"><a href="produkter.html">Produkter</a></li>
+                    <li class=" menuitem menuitem__info">
+                        <a href="mere_info.html">Mere info</a>
+                        <ul class="menuitem__info__dropdown">
+
+                            <li><a href="index.html">Kontakt</a></li>
+                            <li><a href="index.html">Om os</a></li>
+                            <li><a href="index.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem_active menuitem menuitem__basket">
+
+                        <a href="kurv.html"><i class="fa-solid fa-cart-plus"></i>Kurv</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div id="crumbs">
+
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Forside</a></li>
+                    <li><a href="produkter.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Produkter</a></li>
+                    <li><a class="active" href="kurv.html"><i class="fa fa-cart-plus" aria-hidden="true"></i> Kurv</a></li>
+                    <li><a href="betaling.html"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Betaling</a></li>
+
+                </ul>
+            </div>
+
+            <div class="bedstetilbud">
+                <article class="bedstetilbud__container">
+                    <section class="bedstetilbud__title">
+                        <h2 style="font-weight: 300;">Indkøbskurv</h2>
+
+                    </section>
+
+
+                    <section class="bedstetilbud__product">
+                        <div class="bedstetilbud__product_imgdiv">
+                            <img src="images/staffeli 2.png" alt="Mini staffeli">
+                        </div>
+                        <div class="bedstetilbud__producttitle">
+                            <p>Mini staffeli</p>
+                            <p>Inkl. malerlærred</p>
+                        </div>
+                        <div class="quantity">
+                            <a href="" class="minus"><i class="fa-solid fa-minus"></i></a>
+                            <p>1</p>
+                            <a href="" class="plus"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        <div class="bedstetilbud__productprice">
+                            <p>30 kr</p>
+
+
+                        </div>
+
+
+                    </section>
+
+
+                    <section class="bedstetilbud__product">
+                        <div class="bedstetilbud__product_imgdiv">
+                            <img src="images/plante3.png" alt="Mini staffeli">
+                        </div>
+                        <div class="bedstetilbud__producttitle">
+                            <p>Sukkulent</p>
+                            <p>Grøn plante</p>
+                        </div>
+                        <div class="quantity">
+                            <a href="" class="minus"><i class="fa-solid fa-minus"></i></a>
+                            <p>1</p>
+                            <a href="" class="plus"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        <div class="bedstetilbud__productprice">
+                            <p>50 kr</p>
+
+                        </div>
+
+                    </section>
+
+                    <a href="betaling.html" style="justify-self: end;" class="masterbutton">
+                        <p>Gå til betaling</p>
+                    </a>
+                </article>
+            </div>
+
+        </main>
+
+        <footer>
+            <form action="" class="newsletter">
+                <div class="newsletter__container">
+                    <h5>Tilmeld dig vores nyhedsbrev</h5>
+
+                    <div class="newsletter__container__inputcontainer">
+                        <div class="newsletter__container__input">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" placeholder="Din Email" name="mail" required class="email__inputfield">
+                        </div>
+                        <div class="submitbutton__container">
+                            <input type="submit" value="Abonner" class="newsletter__submit__button">
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <nav class="footer__nav">
+                <a href=""><img src="images/karmen-logo.png" alt="karmen logo pink og blå"></a>
+                <ul class="footer__menu">
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li class="footer_nav__info"><a href="mere_info.html">Mere info</a>
+                        <ul class="footer__nav__dropdown">
+                            <li><a href="">Kontakt</a></li>
+                            <li><a href="">Om os</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href=""><i class="fa-solid fa-cart-plus"></i> Kurv</a></li>
+                </ul>
+            </nav>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

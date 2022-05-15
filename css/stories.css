@@ -1,0 +1,80 @@
+.stories__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 287px;
+    text-align: center;
+    row-gap: 92px;
+}
+
+.h3span {
+    display: block;
+}
+
+.stories__grid {
+    justify-self: center;
+    max-width: 1198px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 19px;
+}
+
+.stories {
+    margin-top: 20px;
+    width: 399.33px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.stories:hover {
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.stories img {
+    position: relative;
+    top: -20px;
+    justify-self: center;
+    max-width: 378.85px;
+    margin-bottom: 31px;
+    border-radius: 5px;
+}
+
+.stories h6 {
+    margin-bottom: 15px;
+}
+
+.stories a {
+    color: #F9C4D2;
+}
+
+.stories h6,
+.stories p,
+.stories a {
+    text-align: left;
+    padding: 0 30px;
+}
+
+.stories a {
+    padding-top: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.stories a i {
+    padding-left: 17px;
+}
+
+.stories p {
+    min-height: 76px;
+}
+
+.stories__container a {
+    margin-bottom: 36px;
+}
+
+.masterbutton {
+    justify-self: center;
+}
